@@ -1,0 +1,106 @@
+Arguments: 
+  /usr/local/Cellar/node/9.11.1/bin/node /usr/local/Cellar/yarn/1.6.0/libexec/bin/yarn.js
+
+PATH: 
+  /Users/yuzhakovvv/Projects/university/kpi-schedule/google-cloud-sdk/google-cloud-sdk/bin:/Users/yuzhakovvv/.rvm/gems/ruby-2.4.1/bin:/Users/yuzhakovvv/.rvm/gems/ruby-2.4.1@global/bin:/Users/yuzhakovvv/.rvm/rubies/ruby-2.4.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/yuzhakovvv/.rvm/bin:/Users/yuzhakovvv/Library/Android/sdk/tools:/Users/yuzhakovvv/Library/Android/sdk/platform-tools:/Users/yuzhakovvv/.rvm/bin
+
+Yarn version: 
+  1.6.0
+
+Node version: 
+  9.11.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/yuzhakovvv/Projects/Fyutura/code/example-posts-app/package.json: Unexpected token } in JSON at position 1872
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.6.0/libexec/lib/cli.js:1130:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.6.0/libexec/lib/cli.js:98:30)
+      at /usr/local/Cellar/yarn/1.6.0/libexec/lib/cli.js:109:13
+      at <anonymous>
+
+npm manifest: 
+  {
+    "name": "example-posts-app",
+    "version": "1.0.0",
+    "devDependencies": {
+      "autoprefixer": "^7.1.6",
+      "babel-core": "^6.26.0",
+      "babel-eslint": "^7.2.3",
+      "babel-loader": "^7.1.2",
+      "babel-polyfill": "^6.26.0",
+      "babel-preset-react-app": "^3.1.1",
+      "babel-runtime": "^6.26.0",
+      "case-sensitive-paths-webpack-plugin": "^2.1.1",
+      "chalk": "^2.3.2",
+      "css-loader": "^0.28.7",
+      "dotenv": "^4.0.0",
+      "dotenv-expand": "^4.0.1",
+      "eslint": "^5.9.0",
+      "eslint-config-airbnb": "^17.1.0",
+      "eslint-loader": "^2.1.1",
+      "eslint-plugin-import": "^2.14.0",
+      "eslint-plugin-jsx-a11y": "^6.1.2",
+      "eslint-plugin-react": "^7.11.1",
+      "hard-source-webpack-plugin": "^0.13.1",
+      "html-webpack-plugin": "^4.0.0-alpha",
+      "js-polyfills": "^0.1.41",
+      "postcss-flexbugs-fixes": "^3.2.0",
+      "postcss-loader": "^2.0.8",
+      "raf": "^3.4.0",
+      "react-dev-utils": "^6.0.0-next.3e165448",
+      "style-loader": "^0.19.0",
+      "sw-precache-webpack-plugin": "^0.11.4",
+      "uglifyjs-webpack-plugin": "^2.0.1",
+      "url-loader": "^0.5.7",
+      "webpack": "^4.17.1",
+      "webpack-dev-server": "^3.1.5",
+      "webpack-manifest-plugin": "^2.0.3",
+      "whatwg-fetch": "^2.0.3"
+    },
+    "dependencies": {
+      "@material-ui/core": "^3.3.2",
+      "@material-ui/icons": "^3.0.1",
+      "brace": "^0.10.0",
+      "classnames": "^2.2.5",
+      "immutable": "^3.8.1",
+      "lodash": "^4.17.4",
+      "moment": "^2.18.1",
+      "pre-commit": "^1.2.2",
+      "prop-types": "^15.6.1",
+      "react": "^16.4.2",
+      "react-classset": "^0.0.2",
+      "react-dom": "^16.4.2",
+      "react-immutable-hoc": "^0.0.10",
+      "react-immutable-proptypes": "^2.1.0",
+      "react-infinite-scroller": "^1.2.4",
+      "react-redux": "^5.0.3",
+      "react-router": "^3.0.2",
+      "react-router-redux": "^4.0.8",
+      "redux": "^3.6.0",
+      "redux-thunk": "^2.2.0",
+      "reselect": "^2.5.4",
+    },
+    "scripts": {
+      "start": "node scripts/start.js",
+      "build": "node scripts/build.js",
+      "precommit": "eslint ./src/"
+    },
+    "pre-commit": [
+      "precommit"
+    ],
+    "babel": {
+      "presets": [
+        "react-app"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
